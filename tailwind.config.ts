@@ -53,6 +53,11 @@ export default {
           royal: "hsl(var(--craft-royal-blue))",
           gold: "hsl(var(--craft-gold))",
           maroon: "hsl(var(--craft-maroon))",
+          purple: "hsl(var(--craft-deep-purple))",
+          orange: "hsl(var(--craft-burnt-orange))",
+          green: "hsl(var(--craft-forest-green))",
+          indigo: "hsl(var(--craft-indigo))",
+          bronze: "hsl(var(--craft-bronze))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

@@ -13,6 +13,33 @@ import metalProducts from '@/assets/metal-products.jpg';
 import woodProducts from '@/assets/wood-products.jpg';
 import jewelryProducts from '@/assets/jewelry-products.jpg';
 
+// Individual product images
+import terracottaVase from '@/assets/products/terracotta-vase.jpg';
+import bluePotteryBowls from '@/assets/products/blue-pottery-bowls.jpg';
+import clayWaterPot from '@/assets/products/clay-water-pot.jpg';
+import ceramicPlate from '@/assets/products/ceramic-plate.jpg';
+import clayTeaSet from '@/assets/products/clay-tea-set.jpg';
+import banarasiSaree from '@/assets/products/banarasi-saree.jpg';
+import chikankariKurta from '@/assets/products/chikankari-kurta.jpg';
+import blockPrintDupatta from '@/assets/products/block-print-dupatta.jpg';
+import kanchipuramSaree from '@/assets/products/kanchipuram-saree.jpg';
+import pochampally from '@/assets/products/pochampally-ikkat.jpg';
+import brassTray from '@/assets/products/brass-tray.jpg';
+import silverMeenakariBox from '@/assets/products/silver-meenakari-box.jpg';
+import bronzeSculpture from '@/assets/products/bronze-sculpture.jpg';
+import copperVessel from '@/assets/products/copper-vessel.jpg';
+import ironPanel from '@/assets/products/iron-panel.jpg';
+import woodenJewelryBox from '@/assets/products/wooden-jewelry-box.jpg';
+import channapatnaToys from '@/assets/products/channapatna-toys.jpg';
+import woodenElephant from '@/assets/products/wooden-elephant.jpg';
+import sandalwoodGanesha from '@/assets/products/sandalwood-ganesha.jpg';
+import woodenDoorPanel from '@/assets/products/wooden-door-panel.jpg';
+import goldNecklaceSet from '@/assets/products/gold-necklace-set.jpg';
+import kundanJewelrySet from '@/assets/products/kundan-jewelry-set.jpg';
+import silverTribalEarrings from '@/assets/products/silver-tribal-earrings.jpg';
+import bengaliGoldNecklace from '@/assets/products/bengali-gold-necklace.jpg';
+import punjabiWeddingSet from '@/assets/products/punjabi-wedding-set.jpg';
+
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -21,39 +48,39 @@ const Products = () => {
 
   const products = [
     // Pottery Products
-    { id: 1, name: 'Handmade Terracotta Vase', price: 1500, category: 'Pottery', artisan: 'Rajesh Kumar', rating: 4.8, image: potteryProducts, description: 'Beautiful handcrafted terracotta vase with traditional motifs' },
-    { id: 2, name: 'Blue Pottery Bowl Set', price: 2500, category: 'Pottery', artisan: 'Meera Devi', rating: 4.9, image: potteryProducts, description: 'Set of 4 decorative blue pottery bowls from Jaipur' },
-    { id: 3, name: 'Traditional Water Pot', price: 800, category: 'Pottery', artisan: 'Bharat Singh', rating: 4.7, image: potteryProducts, description: 'Eco-friendly clay water pot with cooling properties' },
-    { id: 4, name: 'Ceramic Decorative Plate', price: 1200, category: 'Pottery', artisan: 'Kamala Kumari', rating: 4.8, image: potteryProducts, description: 'Hand-painted ceramic plate with floral designs' },
-    { id: 5, name: 'Clay Tea Set', price: 3500, category: 'Pottery', artisan: 'Ravi Sharma', rating: 4.9, image: potteryProducts, description: 'Complete traditional clay tea set for 6 people' },
+    { id: 1, name: 'Handmade Terracotta Vase', price: 1500, category: 'Pottery', artisan: 'Rajesh Kumar', rating: 4.8, image: terracottaVase, description: 'Beautiful handcrafted terracotta vase with traditional motifs' },
+    { id: 2, name: 'Blue Pottery Bowl Set', price: 2500, category: 'Pottery', artisan: 'Meera Devi', rating: 4.9, image: bluePotteryBowls, description: 'Set of 4 decorative blue pottery bowls from Jaipur' },
+    { id: 3, name: 'Traditional Water Pot', price: 800, category: 'Pottery', artisan: 'Bharat Singh', rating: 4.7, image: clayWaterPot, description: 'Eco-friendly clay water pot with cooling properties' },
+    { id: 4, name: 'Ceramic Decorative Plate', price: 1200, category: 'Pottery', artisan: 'Kamala Kumari', rating: 4.8, image: ceramicPlate, description: 'Hand-painted ceramic plate with floral designs' },
+    { id: 5, name: 'Clay Tea Set', price: 3500, category: 'Pottery', artisan: 'Ravi Sharma', rating: 4.9, image: clayTeaSet, description: 'Complete traditional clay tea set for 6 people' },
 
     // Textile Products
-    { id: 6, name: 'Banarasi Silk Saree', price: 15000, category: 'Textiles', artisan: 'Sunita Devi', rating: 4.9, image: textileProducts, description: 'Pure silk Banarasi saree with gold zari work' },
-    { id: 7, name: 'Chikankari Kurta', price: 4500, category: 'Textiles', artisan: 'Abdul Rahman', rating: 4.8, image: textileProducts, description: 'Hand-embroidered white cotton kurta with chikankari work' },
-    { id: 8, name: 'Block Print Dupatta', price: 1800, category: 'Textiles', artisan: 'Priya Sharma', rating: 4.7, image: textileProducts, description: 'Cotton dupatta with traditional block print designs' },
-    { id: 9, name: 'Kanchipuram Silk Saree', price: 18000, category: 'Textiles', artisan: 'Lakshmi Bai', rating: 4.9, image: textileProducts, description: 'Temple border Kanchipuram silk saree in rich colors' },
-    { id: 10, name: 'Pochampally Ikkat Fabric', price: 2200, category: 'Textiles', artisan: 'Mohammed Yusuf', rating: 4.8, image: textileProducts, description: 'Handwoven ikkat fabric per meter' },
+    { id: 6, name: 'Banarasi Silk Saree', price: 15000, category: 'Textiles', artisan: 'Sunita Devi', rating: 4.9, image: banarasiSaree, description: 'Pure silk Banarasi saree with gold zari work' },
+    { id: 7, name: 'Chikankari Kurta', price: 4500, category: 'Textiles', artisan: 'Abdul Rahman', rating: 4.8, image: chikankariKurta, description: 'Hand-embroidered white cotton kurta with chikankari work' },
+    { id: 8, name: 'Block Print Dupatta', price: 1800, category: 'Textiles', artisan: 'Priya Sharma', rating: 4.7, image: blockPrintDupatta, description: 'Cotton dupatta with traditional block print designs' },
+    { id: 9, name: 'Kanchipuram Silk Saree', price: 18000, category: 'Textiles', artisan: 'Lakshmi Bai', rating: 4.9, image: kanchipuramSaree, description: 'Temple border Kanchipuram silk saree in rich colors' },
+    { id: 10, name: 'Pochampally Ikkat Fabric', price: 2200, category: 'Textiles', artisan: 'Mohammed Yusuf', rating: 4.8, image: pochampally, description: 'Handwoven ikkat fabric per meter' },
 
     // Metal Products
-    { id: 11, name: 'Brass Decorative Tray', price: 3200, category: 'Metalwork', artisan: 'Arjun Patel', rating: 4.8, image: metalProducts, description: 'Ornate brass serving tray with intricate engravings' },
-    { id: 12, name: 'Silver Meenakari Box', price: 8500, category: 'Metalwork', artisan: 'Govind Das', rating: 4.9, image: metalProducts, description: 'Hand-crafted silver jewelry box with meenakari work' },
-    { id: 13, name: 'Bronze Temple Sculpture', price: 12000, category: 'Metalwork', artisan: 'Suresh Kumar', rating: 4.9, image: metalProducts, description: 'Traditional bronze sculpture of Hindu deity' },
-    { id: 14, name: 'Copper Water Vessel', price: 2800, category: 'Metalwork', artisan: 'Ramesh Chand', rating: 4.7, image: metalProducts, description: 'Pure copper water vessel for health benefits' },
-    { id: 15, name: 'Iron Decorative Panel', price: 5500, category: 'Metalwork', artisan: 'Vikram Singh', rating: 4.8, image: metalProducts, description: 'Handforged iron decorative wall panel' },
+    { id: 11, name: 'Brass Decorative Tray', price: 3200, category: 'Metalwork', artisan: 'Arjun Patel', rating: 4.8, image: brassTray, description: 'Ornate brass serving tray with intricate engravings' },
+    { id: 12, name: 'Silver Meenakari Box', price: 8500, category: 'Metalwork', artisan: 'Govind Das', rating: 4.9, image: silverMeenakariBox, description: 'Hand-crafted silver jewelry box with meenakari work' },
+    { id: 13, name: 'Bronze Temple Sculpture', price: 12000, category: 'Metalwork', artisan: 'Suresh Kumar', rating: 4.9, image: bronzeSculpture, description: 'Traditional bronze sculpture of Hindu deity' },
+    { id: 14, name: 'Copper Water Vessel', price: 2800, category: 'Metalwork', artisan: 'Ramesh Chand', rating: 4.7, image: copperVessel, description: 'Pure copper water vessel for health benefits' },
+    { id: 15, name: 'Iron Decorative Panel', price: 5500, category: 'Metalwork', artisan: 'Vikram Singh', rating: 4.8, image: ironPanel, description: 'Handforged iron decorative wall panel' },
 
     // Wood Products
-    { id: 16, name: 'Hand-carved Wooden Box', price: 2400, category: 'Woodwork', artisan: 'Deepak Joshi', rating: 4.8, image: woodProducts, description: 'Intricately carved wooden jewelry box' },
-    { id: 17, name: 'Channapatna Wooden Toys', price: 1500, category: 'Woodwork', artisan: 'Naresh Kumar', rating: 4.9, image: woodProducts, description: 'Set of colorful lacquered wooden toys' },
-    { id: 18, name: 'Miniature Wooden Elephant', price: 800, category: 'Woodwork', artisan: 'Mohan Lal', rating: 4.7, image: woodProducts, description: 'Hand-carved miniature elephant with intricate details' },
-    { id: 19, name: 'Sandalwood Sculpture', price: 15000, category: 'Woodwork', artisan: 'Santosh Yadav', rating: 4.9, image: woodProducts, description: 'Beautiful sandalwood sculpture of Ganesha' },
-    { id: 20, name: 'Traditional Wooden Door Panel', price: 8500, category: 'Woodwork', artisan: 'Rajendra Prasad', rating: 4.8, image: woodProducts, description: 'Carved wooden door panel with traditional motifs' },
+    { id: 16, name: 'Hand-carved Wooden Box', price: 2400, category: 'Woodwork', artisan: 'Deepak Joshi', rating: 4.8, image: woodenJewelryBox, description: 'Intricately carved wooden jewelry box' },
+    { id: 17, name: 'Channapatna Wooden Toys', price: 1500, category: 'Woodwork', artisan: 'Naresh Kumar', rating: 4.9, image: channapatnaToys, description: 'Set of colorful lacquered wooden toys' },
+    { id: 18, name: 'Miniature Wooden Elephant', price: 800, category: 'Woodwork', artisan: 'Mohan Lal', rating: 4.7, image: woodenElephant, description: 'Hand-carved miniature elephant with intricate details' },
+    { id: 19, name: 'Sandalwood Sculpture', price: 15000, category: 'Woodwork', artisan: 'Santosh Yadav', rating: 4.9, image: sandalwoodGanesha, description: 'Beautiful sandalwood sculpture of Ganesha' },
+    { id: 20, name: 'Traditional Wooden Door Panel', price: 8500, category: 'Woodwork', artisan: 'Rajendra Prasad', rating: 4.8, image: woodenDoorPanel, description: 'Carved wooden door panel with traditional motifs' },
 
     // Jewelry Products
-    { id: 21, name: 'Gold Plated Necklace Set', price: 12500, category: 'Jewelry', artisan: 'Sonal Mehta', rating: 4.9, image: jewelryProducts, description: 'Contemporary gold plated necklace with matching earrings' },
-    { id: 22, name: 'Kundan Jewelry Set', price: 25000, category: 'Jewelry', artisan: 'Kiran Devi', rating: 4.9, image: jewelryProducts, description: 'Traditional Kundan jewelry set with precious stones' },
-    { id: 23, name: 'Silver Tribal Earrings', price: 3500, category: 'Jewelry', artisan: 'Anil Kumar', rating: 4.7, image: jewelryProducts, description: 'Handcrafted silver earrings with tribal designs' },
-    { id: 24, name: 'Bengali Gold Necklace', price: 18000, category: 'Jewelry', artisan: 'Pooja Sharma', rating: 4.8, image: jewelryProducts, description: 'Traditional Bengali style gold necklace' },
-    { id: 25, name: 'Punjabi Wedding Set', price: 35000, category: 'Jewelry', artisan: 'Raman Seth', rating: 4.9, image: jewelryProducts, description: 'Complete Punjabi bridal jewelry set' }
+    { id: 21, name: 'Gold Plated Necklace Set', price: 12500, category: 'Jewelry', artisan: 'Sonal Mehta', rating: 4.9, image: goldNecklaceSet, description: 'Contemporary gold plated necklace with matching earrings' },
+    { id: 22, name: 'Kundan Jewelry Set', price: 25000, category: 'Jewelry', artisan: 'Kiran Devi', rating: 4.9, image: kundanJewelrySet, description: 'Traditional Kundan jewelry set with precious stones' },
+    { id: 23, name: 'Silver Tribal Earrings', price: 3500, category: 'Jewelry', artisan: 'Anil Kumar', rating: 4.7, image: silverTribalEarrings, description: 'Handcrafted silver earrings with tribal designs' },
+    { id: 24, name: 'Bengali Gold Necklace', price: 18000, category: 'Jewelry', artisan: 'Pooja Sharma', rating: 4.8, image: bengaliGoldNecklace, description: 'Traditional Bengali style gold necklace' },
+    { id: 25, name: 'Punjabi Wedding Set', price: 35000, category: 'Jewelry', artisan: 'Raman Seth', rating: 4.9, image: punjabiWeddingSet, description: 'Complete Punjabi bridal jewelry set' }
   ];
 
   const categories = ['all', 'Pottery', 'Textiles', 'Metalwork', 'Woodwork', 'Jewelry'];

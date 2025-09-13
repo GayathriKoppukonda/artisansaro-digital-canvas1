@@ -12,6 +12,20 @@ import jewelryCourse from '@/assets/jewelry-course.jpg';
 import metalworkImage from '@/assets/metalwork-craft.jpg';
 import woodworkImage from '@/assets/woodwork-craft.jpg';
 
+// Individual course images
+import potteryBasics from '@/assets/courses/pottery-basics.jpg';
+import potteryGlazing from '@/assets/courses/pottery-glazing.jpg';
+import textileWeaving from '@/assets/courses/textile-weaving.jpg';
+import embroideryTechniques from '@/assets/courses/embroidery-techniques.jpg';
+import blockPrinting from '@/assets/courses/block-printing.jpg';
+import metalworkBasics from '@/assets/courses/metalwork-basics.jpg';
+import silverJewelry from '@/assets/courses/silver-jewelry.jpg';
+import woodCarving from '@/assets/courses/wood-carving.jpg';
+import furnitureMaking from '@/assets/courses/furniture-making.jpg';
+import jewelryDesign from '@/assets/courses/jewelry-design.jpg';
+import beadworkJewelry from '@/assets/courses/beadwork-jewelry.jpg';
+import advancedMetalwork from '@/assets/courses/advanced-metalwork.jpg';
+
 const Learn = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -30,7 +44,7 @@ const Learn = () => {
       price: 4500,
       rating: 4.9,
       students: 324,
-      image: potteryCourse,
+      image: potteryBasics,
       description: 'Learn the fundamentals of Indian pottery making from wheel throwing to glazing techniques.',
       lessons: 16,
       certificate: true,
@@ -46,7 +60,7 @@ const Learn = () => {
       price: 7500,
       rating: 4.8,
       students: 156,
-      image: potteryCourse,
+      image: potteryGlazing,
       description: 'Master the art of creating intricate terracotta sculptures and decorative pieces.',
       lessons: 24,
       certificate: true,
@@ -80,7 +94,7 @@ const Learn = () => {
       price: 6000,
       rating: 4.9,
       students: 267,
-      image: weavingCourse,
+      image: textileWeaving,
       description: 'Learn traditional handloom weaving techniques and create your own fabrics.',
       lessons: 20,
       certificate: true,
@@ -96,7 +110,7 @@ const Learn = () => {
       price: 5000,
       rating: 4.8,
       students: 198,
-      image: weavingCourse,
+      image: embroideryTechniques,
       description: 'Master the delicate art of Chikankari embroidery from Lucknow.',
       lessons: 16,
       certificate: true,
@@ -112,7 +126,7 @@ const Learn = () => {
       price: 3500,
       rating: 4.7,
       students: 145,
-      image: weavingCourse,
+      image: blockPrinting,
       description: 'Learn traditional block printing techniques with natural dyes.',
       lessons: 8,
       certificate: true,
@@ -130,7 +144,7 @@ const Learn = () => {
       price: 8500,
       rating: 4.9,
       students: 234,
-      image: jewelryCourse,
+      image: jewelryDesign,
       description: 'Learn the art of creating traditional Indian jewelry with precious metals.',
       lessons: 24,
       certificate: true,
@@ -146,7 +160,7 @@ const Learn = () => {
       price: 12000,
       rating: 4.9,
       students: 78,
-      image: jewelryCourse,
+      image: beadworkJewelry,
       description: 'Master the intricate Kundan jewelry making technique from Rajasthan.',
       lessons: 32,
       certificate: true,
@@ -162,7 +176,7 @@ const Learn = () => {
       price: 6500,
       rating: 4.7,
       students: 167,
-      image: jewelryCourse,
+      image: silverJewelry,
       description: 'Create beautiful silver jewelry pieces using traditional tribal designs.',
       lessons: 16,
       certificate: true,
@@ -180,7 +194,7 @@ const Learn = () => {
       price: 5500,
       rating: 4.8,
       students: 189,
-      image: metalworkImage,
+      image: metalworkBasics,
       description: 'Learn traditional brass working techniques and create decorative items.',
       lessons: 20,
       certificate: true,
@@ -196,7 +210,7 @@ const Learn = () => {
       price: 9500,
       rating: 4.9,
       students: 92,
-      image: metalworkImage,
+      image: advancedMetalwork,
       description: 'Create stunning bronze sculptures using traditional lost-wax casting.',
       lessons: 28,
       certificate: true,
@@ -214,7 +228,7 @@ const Learn = () => {
       price: 4000,
       rating: 4.8,
       students: 256,
-      image: woodworkImage,
+      image: woodCarving,
       description: 'Learn fundamental wood carving techniques and create decorative pieces.',
       lessons: 16,
       certificate: true,
@@ -230,7 +244,7 @@ const Learn = () => {
       price: 4500,
       rating: 4.9,
       students: 134,
-      image: woodworkImage,
+      image: furnitureMaking,
       description: 'Create colorful lacquered wooden toys using traditional Channapatna techniques.',
       lessons: 12,
       certificate: true,

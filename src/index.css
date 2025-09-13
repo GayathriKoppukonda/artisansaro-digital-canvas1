@@ -8,55 +8,65 @@
 
 @layer base {
   :root {
-    /* Indian-inspired color palette */
-    --background: 35 25% 97%;
-    --foreground: 25 20% 10%;
+    /* Deep artistic Indian color palette */
+    --background: 30 15% 98%;
+    --foreground: 20 25% 8%;
 
-    --card: 35 25% 99%;
-    --card-foreground: 25 20% 10%;
+    --card: 30 20% 99%;
+    --card-foreground: 20 25% 8%;
 
-    --popover: 35 25% 99%;
-    --popover-foreground: 25 20% 10%;
+    --popover: 30 20% 99%;
+    --popover-foreground: 20 25% 8%;
 
-    /* Saffron-inspired primary */
-    --primary: 28 100% 45%;
-    --primary-foreground: 35 25% 97%;
+    /* Rich saffron primary */
+    --primary: 30 95% 38%;
+    --primary-foreground: 30 15% 98%;
+    --primary-glow: 35 100% 65%;
     
-    /* Deep orange secondary */
-    --secondary: 15 80% 92%;
-    --secondary-foreground: 25 20% 10%;
+    /* Deep terracotta secondary */
+    --secondary: 12 85% 88%;
+    --secondary-foreground: 20 25% 8%;
 
-    /* Warm muted tones */
-    --muted: 35 15% 92%;
-    --muted-foreground: 25 10% 45%;
+    /* Sophisticated muted tones */
+    --muted: 30 12% 90%;
+    --muted-foreground: 25 15% 40%;
 
-    /* Turmeric accent */
-    --accent: 45 95% 85%;
-    --accent-foreground: 25 20% 10%;
+    /* Rich golden accent */
+    --accent: 42 90% 75%;
+    --accent-foreground: 20 25% 8%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 35 25% 97%;
+    --destructive: 0 84% 55%;
+    --destructive-foreground: 30 15% 98%;
 
-    --border: 35 20% 88%;
-    --input: 35 20% 88%;
-    --ring: 28 100% 45%;
+    --border: 30 18% 85%;
+    --input: 30 18% 85%;
+    --ring: 30 95% 38%;
 
-    /* Indian craft colors */
-    --craft-terracotta: 15 75% 55%;
-    --craft-emerald: 150 60% 45%;
-    --craft-royal-blue: 220 80% 50%;
-    --craft-gold: 45 85% 60%;
-    --craft-maroon: 350 70% 35%;
+    /* Deep artistic craft colors */
+    --craft-terracotta: 15 85% 45%;
+    --craft-emerald: 150 75% 35%;
+    --craft-royal-blue: 220 90% 40%;
+    --craft-gold: 42 95% 50%;
+    --craft-maroon: 350 80% 25%;
+    --craft-deep-purple: 270 75% 35%;
+    --craft-burnt-orange: 25 90% 40%;
+    --craft-forest-green: 120 85% 25%;
+    --craft-indigo: 240 85% 30%;
+    --craft-bronze: 35 70% 35%;
     
-    /* Gradients */
-    --gradient-saffron: linear-gradient(135deg, hsl(28 100% 45%), hsl(35 95% 55%));
-    --gradient-sunset: linear-gradient(135deg, hsl(28 100% 45%), hsl(15 85% 60%));
-    --gradient-heritage: linear-gradient(135deg, hsl(220 80% 50%), hsl(150 60% 45%));
-    
-    /* Shadows */
-    --shadow-warm: 0 4px 20px hsl(28 100% 45% / 0.15);
-    --shadow-craft: 0 8px 32px hsl(25 20% 10% / 0.12);
-    --shadow-glow: 0 0 30px hsl(28 100% 45% / 0.3);
+    /* Rich artistic gradients */
+    --gradient-saffron: linear-gradient(135deg, hsl(30 95% 38%), hsl(35 100% 65%));
+    --gradient-sunset: linear-gradient(135deg, hsl(25 90% 40%), hsl(15 85% 50%));
+    --gradient-heritage: linear-gradient(135deg, hsl(220 90% 40%), hsl(150 75% 35%));
+    --gradient-royal: linear-gradient(135deg, hsl(270 75% 35%), hsl(240 85% 30%));
+    --gradient-earth: linear-gradient(135deg, hsl(15 85% 45%), hsl(35 70% 35%));
+    --gradient-emerald: linear-gradient(135deg, hsl(150 75% 35%), hsl(120 85% 25%));
+    /* Enhanced shadows */
+    --shadow-warm: 0 8px 25px hsl(30 95% 38% / 0.15);
+    --shadow-craft: 0 12px 40px hsl(25 20% 10% / 0.15);
+    --shadow-glow: 0 0 40px hsl(30 95% 38% / 0.25);
+    --shadow-deep: 0 20px 60px hsl(25 20% 10% / 0.20);
+    --shadow-artistic: 0 8px 32px hsl(15 85% 45% / 0.18);
 
     --radius: 0.5rem;
 
